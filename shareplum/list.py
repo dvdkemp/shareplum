@@ -223,7 +223,7 @@ class _List2007:
 
         # Add query
         if query:
-            modified_query = dict()
+            modified_query = query
             where = etree.Element('Where')
 
             parents = [where]
